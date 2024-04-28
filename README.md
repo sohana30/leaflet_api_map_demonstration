@@ -1,4 +1,4 @@
-# leaflet_api_map_demontration
+# Leaflet API Map Demontration
 Create a self contained HTML web map using Leaflet API that allows users do to the following things:
  - Create new points, lines or areas
  - Edit features
