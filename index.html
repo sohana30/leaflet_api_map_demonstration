@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Interactive web map with searchable features and drawing capabilities using Leaflet."
+    />
+    <title>Simple Web Map</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet-draw/dist/leaflet.draw.css"
+    />
+  </head>
+  <body>
+    <div class="map-container">
+      <div class="map-container__search">
+        <input
+          type="text"
+          id="searchInput"
+          class="map-container__search-input"
+          placeholder="Enter feature text to search"
+          aria-label="Search text input"
+        />
+        <button
+          id="searchButton"
+          class="map-container__search-button"
+          aria-label="Search button"
+        >
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </button>
+      </div>
+      <div
+        id="map"
+        class="map-container__map"
+        aria-label="Interactive map"
+      ></div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-draw/dist/leaflet.draw.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
