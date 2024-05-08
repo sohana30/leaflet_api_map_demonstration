@@ -12,7 +12,7 @@ body {
   height: 100%;
 
   &__map {
-    height: calc(100% - 20px); // Ensures a little padding at the bottom if needed
+    height: calc(100%);
   }
 
   &__search {
