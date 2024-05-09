@@ -6,7 +6,8 @@ Create a self contained HTML web map using Leaflet API that allows users do to t
  - Add a multi-line text element to the features
  - Provides the means for the text on the features to be searched
 
-![WebAppImage](https://github.com/sohana30/leaflet_api_map_demonstration/assets/24701210/e57a52df-d2e9-490f-a6ed-419f481cd4df)
+![WebApp](https://github.com/sohana30/leaflet_api_map_demonstration/assets/24701210/3f726463-caf1-4c39-acbd-7f80343e5655)
+
 
 
 ## Getting started
